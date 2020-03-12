@@ -1,0 +1,597 @@
+  /*
+  html5doctor.com Reset Stylesheet
+  v1.6.1
+  Last Updated: 2010-09-17
+  Author: Richard Clark - http://richclarkdesign.com
+  Twitter: @rich_clark
+  */
+  
+  html, body, div, span, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  abbr, address, cite, code,
+  del, dfn, em, img, ins, kbd, q, samp,
+  small, strong, sub, sup, var,
+  b, i,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section, summary,
+  time, mark, audio, video {
+      margin:0;
+      padding:0;
+      border:0;
+      outline:0;
+      font-size:100%;
+      vertical-align:baseline;
+      background:transparent;
+  }
+  
+  body {
+      line-height:1;
+  }
+  
+  article,aside,details,figcaption,figure,
+  footer,header,hgroup,menu,nav,section {
+      display:block;
+  }
+  
+  nav ul {
+      list-style:none;
+  }
+
+
+  
+  blockquote, q {
+      quotes:none;
+  }
+  
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content:'';
+      content:none;
+  }
+  
+  a {
+      margin:0;
+      padding:0;
+      font-size:100%;
+      vertical-align:baseline;
+      background:transparent;
+  }
+  
+  /* change colours to suit your needs */
+  ins {
+      background-color:#ff9;
+      color:#000;
+      text-decoration:none;
+  }
+  
+  /* change colours to suit your needs */
+  mark {
+      background-color:#ff9;
+      color:#000;
+      font-style:italic;
+      font-weight:bold;
+  }
+  
+  del {
+      text-decoration: line-through;
+  }
+  
+  abbr[title], dfn[title] {
+      border-bottom:1px dotted;
+      cursor:help;
+  }
+  
+  table {
+      border-collapse:collapse;
+      border-spacing:0;
+  }
+  
+  /* change border colour to suit your needs */
+  hr {
+      display:block;
+      height:1px;
+      border:0;
+      border-top:1px solid #cccccc;
+      margin:1em 0;
+      padding:0;
+  }
+  
+  input, select {
+      vertical-align:middle;
+  }
+  
+  *{
+    box-sizing: border-box;
+    font-family: kozuka-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+  }
+  .contanier{
+    width: 980px;
+    margin: 0 auto;
+  }
+  .header{
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    border: solid #420000;
+    border-width: thick;
+  
+  }
+  .header1{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .header2{
+   display: flex;
+   justify-content: center;
+   font-size: 50px;
+   padding: 10px;
+  }
+
+  .logo{
+    width: auto;
+    height: 78px;
+  }
+  
+  .header3{
+    height: 20px;
+    background-color: #420000;
+  }
+
+  .header4{
+    background-repeat:no-repeat;
+    background-image: url("photo/top1.jpg");
+  }
+  
+  .header4 img {
+    width: 970px;
+    height: 290px;
+    object-fit: cover;
+    font-family: "object-fit:cover;";
+  }
+
+  .header5{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 30px;
+  
+  }
+  .header5 a{
+    margin-right: 15px;
+  }
+  .nav{
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  line-height: 30px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  }
+  
+  .contents{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+  }
+  
+  /* 共通コンテンツCSS */
+  .box{
+    width: 100%;
+    margin-bottom: 20px;
+    border: solid #420000;
+    border-width: thick;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head{
+    background-color: #420000;
+    height:  60px;
+    width: 100%;
+    border: solid #fff;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+  .head_text{
+    color: #fff;
+    padding-left: 10px;
+  }
+  
+  .btn-square {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    margin: 10px 0px;
+  }
+  .btn-square:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
+  
+  .jus-bet{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .blank{
+    width: 100%;
+    height: 20px;
+    padding-left: 20px;
+  }
+  
+  
+  .center{
+  text-align: center;
+  }
+  .btn_center{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* menu */
+  
+  .menu-col{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu1_table th{
+    background-color: #CCCCCC;
+  }
+  .menu1_table td{
+   font-weight: bold;
+  }
+  .red{
+    color: red;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  .menu_text1{
+    width: 200px;
+  }
+  .menu_text2{
+    text-align: center;
+  }
+  .menu_text3{
+    line-height: 28px;
+  }
+  
+  .menu_img{
+    width: auto;
+    height: 160px;
+    padding: 5px;
+  
+  }
+  .menu_img_small{
+    padding: 20px;
+  }
+
+  
+  .menu_text{
+    padding: 5px;
+    width: 100%;
+  }
+  .menu_list{
+    line-height: 28px;
+  }
+  .description {
+    width: 100%;
+  }
+  .description td{
+    line-height: 28px;
+    font-size: 16px;
+    text-align: left;
+    vertical-align:middle;
+  border: solid 1px #cccccc;
+  padding-left: 5px;
+  
+  }
+  .description th{
+    border: solid 1px #cccccc;
+    background-color: #cccccc;
+    font-size: 18px;
+  }
+  .list_small{
+    width: 68px;
+  }
+  
+  .menu11 img{
+    height: 120px;
+  }
+  .menu11 a{
+    line-height: 28px;
+  }
+  
+  
+  
+  
+  /* about */
+  .about-col{
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+  }
+  .about{
+    margin-bottom: 30px;
+  }
+  .part{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    border: solid #fff;
+    border-width: thick;
+    justify-content:space-around;
+    padding: 5px 10px;
+  }
+  .about_img{
+    width: 40%;
+    height: 80%;
+  }
+  .about_text{
+  width: 45%;
+  line-height: 25px;
+  padding-top: 25px;
+  }
+  .about_text span{
+    font-weight: bold;
+  }
+  .about1{
+    height: 500px;
+  
+  }
+  
+  .photo_container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .photos{
+    width: 250px;
+    padding: 8px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .photo{
+    width: auto;
+    height: 166px;
+    padding-bottom: 10px;
+  }
+  .photo_height{
+    width:250px;
+  }
+  .coment{
+  width: 230px;
+  height: auto;
+  }
+  .photo_col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  
+  table{
+    border-collapse: collapse;
+    border: none;
+    width: 98%;
+    margin:  10px auto;
+  }
+  table th, table td {
+    border: solid 3px #420000;
+    opacity: 0.8;
+  
+  }
+  td img{
+     width: auto;
+     height: 80px;
+  
+  }
+  td{
+    font-size: 18px;
+    height: auto;
+    text-align:center;
+    vertical-align:middle;
+  
+  }
+  th{
+    line-height: 30px;
+  }
+  
+  .t-text{
+    text-align: left;
+      vertical-align:middle;
+  }
+  
+  .map{
+    width: 100%;
+   padding: 30px;
+    border-top:  solid #420000;
+    border-bottom:   solid #420000;
+  
+  }
+  .footer{
+    width: 100%;
+    background-color: #8787;
+    height: 80px;
+    background-color: #420000;
+    display: flex;
+    align-items: center;
+  
+  }
+  footer p{
+  color: #fff;
+  font-size: 14px;
+  }
+  .footer{
+    width: 100%;
+    min-width: 1200px;
+    display: flex;
+  }
+  .name{
+    margin-left: 40px;
+    line-height: 20px;
+    width: 200px;
+  }
+  .details{
+    width: 500px;
+    float: right;
+  line-height: 16px;
+  margin-left: auto;
+  }
+  .details_lists li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+  
+  }
+  .contact{
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  
+  @media (max-width:980px) {
+    .d-none{
+   display: none;
+  
+    }
+    .flex-col{
+      flex-direction: column;
+    }
+    .header{
+      height: auto;
+      width: 100%;
+      background-color: #fff;
+      border: solid #420000;
+      border-width: thick;
+  
+    }
+    .logo{
+      width: auto;
+      height: 35px;
+  
+    }
+    .header3{
+      height: 10px;
+      background-color: #420000;
+    }
+  
+    .nav{
+    flex-wrap: wrap;
+  }
+  
+    .contanier{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .header4{
+      background-repeat:no-repeat;
+      background-image: url("photo/top1.jpg");
+      height: 100px;
+      background-size: cover;
+    }
+    .contents{
+      display: flex;
+      justify-content: space-between;
+      flex-direction:column-reverse;
+      width: 100%
+    }
+    .about_img{
+      width: 100%;
+      height: auto;
+    }
+    .about1{
+      height: auto;
+  
+    }
+    .part2{
+      flex-direction: column-reverse;
+    }
+    .about-col{
+      width: 100%;
+  
+    }
+  
+    .about_text{
+    width: 100%;
+  
+    }
+  
+    .menu-col{
+      width: 100%;
+  
+    }
+  .footer{
+    width: 100%;
+    min-width: 0px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .name{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 14px;
+    margin-left: -100px;
+    width: 200px;
+  }
+  .details{
+    width: 200px;
+    font-size: 10px;
+    float:left;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: -100px;
+  }
+  .contact{
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 5px;
+  }
+  
+  .details_lists{
+  
+  }
+  .details_lists li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+  }
+  
+  
+  
+}
+  
+ 
+.m-reset {
+  margin: 0;
+}
+.logo-family {
+  font-family: "Sawarabi Gothic";
+}
